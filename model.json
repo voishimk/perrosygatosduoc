@@ -396,8 +396,8 @@
     "weightsManifest": [
         {
             "paths": [
-                "https://drive.google.com/uc?export=download&id=1x3tobUv0zgO8ggrnaX-vur23xZXnW4Vy",
-                "https://drive.google.com/uc?export=download&id=1K5tqNjKknrMq2ls6V_Bga5nT5p1a4Yf3"
+                "group1-shard1of2.json",
+                "group1-shard2of2.json"
             ],
             "weights": [
                 {
