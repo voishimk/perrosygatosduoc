@@ -76,7 +76,7 @@
     (async() => {
       console.log("Cargando modelo...");
       /* Carga el modelo*/
-      modelo = await tf.loadGraphModel("model.json");
+      modelo = await tf.loadLayersModel("https://raw.githubusercontent.com/voishimk/perrosygatosduoc/main/model.json");
       console.log("Modelo cargado");
     })();
 
