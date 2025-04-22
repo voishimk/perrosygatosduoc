@@ -396,8 +396,8 @@
     "weightsManifest": [
         {
             "paths": [
-                "perrosygatosduoc/group1-shard1of2.json",
-                "perrosygatosduoc/group1-shard2of2.json"
+                "group1-shard1of2.json",
+                "group1-shard2of2.json"
             ],
             "weights": [
                 {
