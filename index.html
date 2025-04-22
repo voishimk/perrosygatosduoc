@@ -75,9 +75,7 @@
 
     (async() => {
       console.log("Cargando modelo...");
-      
-      // Cargar
-      modelo = await tf.loadLayersModel('http://localhost:8000/model.json');
+      modelo = await tf.loadLayersModel("model.json");
       console.log("Modelo cargado");
     })();
 
