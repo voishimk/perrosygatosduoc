@@ -2,6 +2,14 @@
     "format": "layers-model",
     "generatedBy": "keras v3.8.0",
     "convertedBy": "TensorFlow.js Converter v4.22.0",
+    "userDefinedMetadata": {
+        "inputShape": [
+            null,
+            100,
+            100,
+            1
+        ]
+    },
     "modelTopology": {
         "keras_version": "3.8.0",
         "backend": "tensorflow",
@@ -370,7 +378,7 @@
             "weighted_metrics": null,
             "run_eagerly": false,
             "steps_per_execution": 1,
-            "jit_compile": true,
+            "jit_compile": false,
             "optimizer_config": {
                 "class_name": "Adam",
                 "config": {
@@ -396,8 +404,7 @@
     "weightsManifest": [
         {
             "paths": [
-                "group1-shard1of2.json",
-                "group1-shard2of2.json"
+                "group1-shard1of1.json"
             ],
             "weights": [
                 {
